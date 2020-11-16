@@ -1,6 +1,6 @@
 commands =
-  active : "/usr/local/bin/kwmc query space active id"
-  list   : "/usr/local/bin/kwmc query space list"
+  active : "/usr/local/bin/yabai query spaces --space [mission-control index]"
+  list   : "/usr/local/bin/yabai -m query --spaces"
   monitor: ""
 
 colors =
