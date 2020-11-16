@@ -1,8 +1,9 @@
 commands =
-  active : "/usr/local/bin/chunkc tiling::query --desktop id"
+  active : "/usr/local/bin/yabai -m query --spaces --space |/usr/local/bin/jq '.id'"
+  list : "/usr/local/bin/yabai -m query --spaces |jq '.[].'label''"
 
 colors =
-  acqua:   "#00d787"
+  aqua:   "#00d787"
   wine:    "#72003e"
   orange:  "#ff8700"
   silver:  "#e4e4e4"
